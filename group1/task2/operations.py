@@ -1,7 +1,4 @@
 class Operation:
-    first_number = 0
-    second_number = 0
-
     def calculate(operation: str, first_number: float, second_number: float):
         pass
 

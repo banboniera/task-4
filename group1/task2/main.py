@@ -16,20 +16,20 @@ def main():
     print("====================================================================================================")
     print("")
 
-    while(not_numeric):
+    while (not_numeric):
         print("Please provide first number: ", end="")
         first_number = input()
         not_numeric = not first_number.isnumeric()
-    
+
     not_numeric = True
 
-    while(not_numeric):
+    while (not_numeric):
         print("Please provide second number: ", end="")
         second_number = input()
         not_numeric = not second_number.isnumeric()
 
     operation = ""
-    while(operation not in ["+", "-", "*", "/"]):
+    while (operation not in ["+", "-", "*", "/"]):
         print("Please provide operation (+, -, *, /): ", end="")
         operation = input()
 
@@ -38,7 +38,6 @@ def main():
 
     print("")
     print("====================================================================================================")
-
 
 
 if __name__ == "__main__":
